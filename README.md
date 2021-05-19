@@ -1,6 +1,6 @@
 # internship-task
 
-#first task
+# first task
 
 All the files for the first task is in the first-task folder.
 
@@ -23,7 +23,7 @@ the last component is the footer which contains the ui for the footer
 No such data flow is there in the project. It is fully static.
 
 
-#Second task
+# Second task
 
 All the files for the second task is in the second task folder
 

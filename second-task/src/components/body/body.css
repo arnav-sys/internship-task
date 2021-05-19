@@ -1,0 +1,134 @@
+.body {
+  margin-top: 80px;
+  flex: 0.9;
+  display: flex;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-left: 50px;
+  padding-top: 50px;
+  font: 18px Soleil, Arial, sans-serif;
+}
+
+.a {
+  margin-bottom: 8px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  opacity: 0.5;
+  text-decoration: none;
+  display: flex;
+}
+
+li {
+  font: 18px Soleil, Arial, sans-serif;
+  padding: 10px;
+}
+
+.right-section {
+  display: block;
+  margin-top: 50px;
+  width: 500px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.right-section > h1 {
+  margin-bottom: 16px;
+  font-size: 16px;
+  display: block;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.lesson {
+  display: block;
+}
+
+.prac-markers {
+  display: table;
+  float: left;
+  width: 300px;
+  margin-left: 100px;
+  border: 2px solid #bbb;
+  font-size: 0;
+  border-radius: 2px;
+  border: 1px solid white;
+}
+
+.prac-marker {
+  border-width: 0 1px;
+  border-color: #fff;
+  background: #f0f0f0;
+  cursor: pointer;
+  position: relative;
+  display: table-cell;
+  height: 13px;
+  border-right: 1px solid #bbb;
+  line-height: 0;
+}
+
+.prac-marker.current {
+  display: block;
+  border-color: #e5b100;
+  background: #ffc500;
+  cursor: default;
+  z-index: 1;
+}
+
+.text {
+  border: 1px solid #ecedef;
+  height: 100%;
+  display: flex;
+  flex: 0.8;
+  padding: 20px;
+}
+
+.divs {
+  display: flex;
+  justify-content: space-around;
+}
+
+.img {
+  width: 106px;
+  height: 106px;
+}
+
+.dragdrop {
+  display: block;
+  margin-left: 50px;
+}
+
+.div {
+  width: 120px;
+  height: 162px;
+  border-width: 2px;
+  color: rgb(187, 187, 187);
+  border-style: dashed;
+  border-radius: 10px;
+  transform: translate(0px, 0px) scale3d(1, 1, 1);
+  border-color: rgb(187, 187, 187);
+  transform-origin: 50% 100% 0px;
+}
+
+.image {
+  align-items: space-around;
+  justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 1180px) {
+  .right-section {
+    display: none;
+  }
+}

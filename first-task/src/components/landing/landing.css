@@ -1,0 +1,71 @@
+/*css file for landing component*/
+
+.landing {
+  margin-top: 80px;
+  display: flex;
+  background-color: #f5f5f0;
+  align-items: center;
+}
+
+.back {
+  display: flex;
+  padding-top: 35px;
+}
+
+.text-info {
+  margin-bottom: 60px;
+  padding-left: 220px;
+}
+
+.heading {
+  margin-bottom: 16px;
+  text-align: left;
+  font-size: 60px;
+  line-height: 68px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.subheading {
+  margin-bottom: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  color: #000000;
+  opacity: 0.9;
+}
+
+.text-info > h2 {
+  line-height: 1.45em;
+  display: block;
+}
+
+.more {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.card__text {
+  display: flex;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.card_img {
+  margin-top: 80px;
+  width: 250px;
+}
+
+.Card {
+  align-items: center;
+  display: flex;
+  width: 25rem;
+  height: 30rem;
+  margin-left: 18%;
+  background-color: white;
+  margin-top: 30px;
+}

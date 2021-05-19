@@ -1,0 +1,20 @@
+/*css file for exercise component*/
+
+.header {
+  margin-left: 160px;
+  margin-top: 50px;
+}
+
+.exercise {
+  display: grid;
+  margin-right: 300px;
+}
+
+.quiz {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 150px;
+  justify-content: space-between;
+  border: none;
+  width: 100%;
+}

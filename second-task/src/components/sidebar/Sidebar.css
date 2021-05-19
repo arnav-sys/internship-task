@@ -1,0 +1,58 @@
+.sidebar {
+  margin-top: 80px;
+  flex: 0.2;
+  display: flex;
+  background-color: #161616;
+  height: 90vh;
+  z-index: 1;
+}
+
+.back {
+  color: #5d7e8e;
+  display: flex;
+  margin-top: 50px;
+  margin-left: 150px;
+}
+
+.logic {
+  flex: 1;
+  display: flex;
+  font-size: 16px;
+  line-height: 22px;
+  color: #fff;
+  opacity: 0.7;
+  margin-top: 20px;
+  margin-left: 150px;
+}
+
+.text {
+  display: block;
+}
+
+.list {
+  margin-left: 30px;
+  padding-top: 20px;
+}
+
+@media only screen and (max-width: 1505px) {
+  .back {
+    margin-left: 100px;
+  }
+  .logic {
+    margin-left: 100px;
+  }
+}
+
+@media only screen and (max-width: 1180px) {
+  .back {
+    margin-left: 60px;
+  }
+
+  .logic {
+    margin-left: 60px;
+  }
+
+  .sidebar {
+    z-index: -1;
+  }
+}

@@ -1,0 +1,42 @@
+/*css file for footer*/
+
+.footer {
+  display: grid;
+  margin-top: 55px;
+  width: 100%;
+  align-items: space-around;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.next_steps {
+  display: flex;
+}
+
+.text_info {
+  display: grid;
+  padding-left: 30px;
+}
+
+.text_info > h4 {
+  font-size: 20px;
+}
+
+.next_steps > img {
+  height: 90px;
+}
+
+.container-footer {
+  margin-left: 150px;
+  width: 50%;
+  display: flex;
+}
+
+.foot {
+  display: flex;
+}
+
+.hr {
+  width: 80%;
+  margin-left: 160px;
+}
